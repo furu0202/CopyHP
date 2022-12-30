@@ -1,0 +1,24 @@
+@media (max-width:600px) {
+    .main-img {
+        height: calc(100vh - 60px);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .about-img {
+        margin-right: 0px;
+    }
+
+    .ul {
+        flex-direction: column;
+    }
+
+    .ul li {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
